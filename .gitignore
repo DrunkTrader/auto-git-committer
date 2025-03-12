@@ -1,0 +1,10 @@
+# Ignore Cargo build artifacts
+/target/
+**/*.rs.bk
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore Cargo lock file
+Cargo.lock
