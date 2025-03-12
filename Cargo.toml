@@ -1,0 +1,10 @@
+[package]
+name = "auto-git-committer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Neeraj Kumar neerajrajputa786@gmail.com"]
+description = "A Rust program to automate Git commits and push them to a remote repository."
+license = "MIT" 
+repository = "https://github.com/DrunkTrader/auto-git-committer"
+
+[dependencies]
