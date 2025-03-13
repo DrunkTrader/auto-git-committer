@@ -5,6 +5,8 @@
 # Ignore IDE-specific files
 .vscode/
 .idea/
+*.exe
+
 
 # Ignore Cargo lock file
 Cargo.lock
