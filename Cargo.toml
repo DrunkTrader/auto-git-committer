@@ -1,6 +1,6 @@
 [package]
 name = "auto-git-committer"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["Neeraj Kumar neerajrajputa786@gmail.com"]
 description = "A Rust program to automate Git commits and push them to a remote repository."
@@ -8,3 +8,8 @@ license = "MIT"
 repository = "https://github.com/DrunkTrader/auto-git-committer"
 
 [dependencies]
+dialoguer = "0.11"
+crossterm = "0.27"
+clap = { version = "4.4", features = ["derive"] }
+eframe = "0.26"         # egui framework (uses egui + winit)
+tokio = { version = "1", features = ["full"] } # for async GUI launch
