@@ -1,6 +1,6 @@
 [package]
 name = "auto-git-committer"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Neeraj Kumar neerajrajputa786@gmail.com"]
 description = "A Rust program to automate Git commits and push them to a remote repository."
